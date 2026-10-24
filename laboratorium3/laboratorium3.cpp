@@ -93,7 +93,12 @@ int main() {
 	}
 	return 0;
 }*/  //petla w nieskonczonosc wyswietla liczby 
-	//while(true){    //do dokonczenia
+/*int i = 0;
+while (true) {
+	cout << i;
+	i++;
+}
+}*/ //petla nieskonczona wyswietlajaca liczby 0+1, 1+1.. i tak w nieskonczonosc
 
 //zad.6
 	/*double a;
@@ -127,6 +132,141 @@ int main() {
 		}
 	}
 }*/
+//zad.7
+/*int i = 0;
+while (true) {
+	if (i == 200) {
+		break;
+	}
+	if (i % 2 != 0) {
+		cout << i << endl;
+	}
+	i++;
+	 }
+}*/
+//zad.8
+/*#include <math.h>
+using namespace std;
+int main(){
+int n;
+cout << "Podaj liczbe naturalna n: " << endl;
+cin >> n;*/  //do dokonczenia
+//zad.9
+	/*int a;
+	cout << "Podaj temperature:" << endl;
+	cin >> a;
+	if (a < 0) {
+		cout << "Mroz" << endl;
+	}
+	else if (a >= 0 && a < 10)
+	{
+		cout << "Zimno" << endl;
+	}
+	else if (a >= 10 && a < 20) {
+		cout << "Umiarkowanie" << endl;
+	}
+	else if (a >= 20 && a < 30) {
+		cout << "Cieplo" << endl;
+	}
+	else {
+		cout << "Goraco" << endl;
+	} return 0;
+}*/
+//zad.10
+	/*int a;
+	int b;
+	int c;
+	cout << "Podaj 3 liczby calkowite" << endl;
+	cin >> a >> b >> c;
+	if (a > b && a > c) {
+		cout << a << endl;
+	}
+	else if (b > a && b > c) {
+		cout << b << endl;
+	}
+	else if (c > a && c > b) {
+		cout << c << endl;
+	}
+	else {
+		cout << a << endl;
+	}
+	return 0;
+}*/
+//zad.11
+	/*nt a;
+	cout << "Podaj rok kalendarzowy" << endl;
+	cin >> a;
+	if (a % 4 == 0 && a%100 !=0 && a%400 != 0) {
+		cout << "Rok " << a << " jest przestepny" << endl;
+	}
+	else if (a % 100 == 0 && a % 4 == 0 && a % 400 != 0) {
+		cout << "Rok " << a << " nie jest przestepny" << endl;
+	}
+	else if (a % 4 == 0 && a % 100 == 0 && a % 400 == 0) {
+		cout << "Rok " << a << " jest przestepny" << endl;
+	}
+	else {
+		cout << "Rok " << a << " nie jest przestepny" << endl;
+	}
+	return 0;
+}*/
+//zad.12
+	/*int a;
+	cout << "Podaj komunikat:" << endl;
+	cin >> a;
+	switch (a) {
+	case 1:
+		cout << "Start" << endl;
+		break;
+	case 2:
+		cout << "Ustawienia" << endl;
+		break;
+	case 3:
+		cout << "Pomoc" << endl;
+		break;
+	case 4:
+		cout << "Koniec" << endl;
+		break;
+	default:
+		cout << "Podano liczbe inna niz 1,2,3 lub 4" << endl;
+	} return 0;
+}*/
+//zad.13
+	/*int a;
+	cout << "Podaj liczbe a" << endl;
+	cin >> a;
+	switch (a) {
+	case 1:
+		cout << " - niedostateczny";
+		break;
+	case 2:
+		cout << " - dopuszczajacy";
+		break;
+	case 3:
+		cout << " - dostateczny";
+		break;
+	case 4:
+		cout << " - dobry";
+		break;
+	case 5:
+		cout << " - bardzo dobry";
+		break;
+	default:
+		cout << "Podano nieprawidlowa liczbe"<<endl;
+	} return 0;
+}*/
+//zad.14
+/*int suma = 0;
+for (int x=0; x <= 100; x++) {
+	if (x % 3 == 0)
+		continue;
+	suma += x;
+}
+		cout << "Suma: " << suma << endl;
+}*/
+
+
+
 
 
 
@@ -138,5 +278,4 @@ int main() {
 //   2. Use the Team Explorer window to connect to source control
 //   3. Use the Output window to see build output and other messages
 //   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the projec//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file]
