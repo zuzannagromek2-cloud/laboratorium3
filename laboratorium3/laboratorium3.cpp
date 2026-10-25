@@ -193,7 +193,7 @@ cin >> n;*/  //do dokonczenia
 	return 0;
 }*/
 //zad.11
-	/*nt a;
+	/*int a;
 	cout << "Podaj rok kalendarzowy" << endl;
 	cin >> a;
 	if (a % 4 == 0 && a%100 !=0 && a%400 != 0) {
@@ -264,6 +264,44 @@ for (int x=0; x <= 100; x++) {
 }
 		cout << "Suma: " << suma << endl;
 }*/
+//zad.15
+	/*int i;
+	for (i = 1; ; i++) {
+		if (i > 50 && i % 7 == 0) {
+			cout << i << endl;
+			break;
+		}
+	}  return 0;
+}*/ //petla nie sprawdza liczb do 1000 bo przerywa swoje dzialanie gdy znajdzie pierwsza liczbe wieksza od 50 
+//ktora jest podzielna przez 7 a dzieje sie tak poprzez instukcje break
+//zad.16
+	/*int a;
+	int b;
+	for (a = 1; a <= 10; a++) {
+		for (b = 1; b <= 10; b++) {
+			cout << a << "*" << b << "=" << a*b << endl;
+		}
+	}
+}*/
+//zad.17
+	/*int x;
+	int liczba=0;
+	cout << "Podaj nieujemna liczbe calkowita" << endl;
+	cin >> x;
+	if (x == 0) { //konieczne bo 0 ma 1 cyfre a bez tego dla 0 by sie nie wykonalo
+		liczba = 1; //tylko raz = bo jakby bylo 2 to by sprawdzalo czy obie wartosci sa rowne
+	}
+	else {
+		while (x > 0) {
+			x = x / 10;
+			liczba++;
+		}
+	}
+	cout << "Ilosc cyfr: " << liczba << endl;
+ return 0;
+}*/
+
+
 
 
 
